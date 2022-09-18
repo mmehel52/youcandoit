@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(22, 125, 53);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sarı {
+  background-image: url(./14.jpg);
+  background-size: cover;
+  height: 90vh;
+  width: 40vw;
+}
+.head {
+  font-size: 20px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: auto;
+}
+
+#dolist1 {
+  margin: auto;
+  height: 60vh;
+  width: 38vw;
+  overflow: auto;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  position: relative;
+  font-size: 25px;
+}
+#dolist1 li div {
+  position: absolute;
+  left: 40px;
+}
+.input1 {
+  height: 6vh;
+  width: 30vw;
+  margin: auto;
+  margin-top: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+input {
+  width: 20vw;
+  height: 3vh;
+}
+
+.linethrough {
+  text-decoration: line-through gray;
+  opacity: 0.5;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30px;
+  align-items: center;
+}
+
+.fa-square-plus {
+  color: rgb(22, 125, 53);
+}
+.xxx {
+  color: red;
+  font-size: smaller;
+}
+.checked {
+  font-size: smaller;
+  color: black;
+}
+.fa-regular {
+  font-size: smaller;
+  color: green;
+}
+
+li div {
+  /* border: 2px solid red; */
+
+  font-size: smaller;
+}
+
+.color111 {
+  color: blueviolet;
+  background-color: aquamarine;
+  font-size: xx-large;
+}
+
+#last {
+  /* border: 2px solid red; */
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+
+/***********Responsive*******/
+
+@media screen and (max-width: 1180px) {
+  .head {
+    font-size: 15px;
+  }
+  #dolist1 {
+    font-size: 20px;
+  }
+  #last {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .head {
+    font-size: 10px;
+  }
+  #dolist1 {
+    font-size: 15px;
+  }
+  #last {
+    font-size: 16px;
+  }
+}
