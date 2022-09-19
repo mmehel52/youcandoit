@@ -20,6 +20,9 @@ body {
   height: 15vh;
   width: auto;
 }
+i {
+  color: green;
+}
 
 #dolist1 {
   margin: auto;
@@ -29,11 +32,18 @@ body {
   border-top: 2px solid red;
   border-bottom: 2px solid red;
   position: relative;
-  font-size: 25px;
 }
 #dolist1 li div {
   position: absolute;
   left: 40px;
+}
+#dolist1 li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30px;
+  align-items: center;
+  font-size: 30px;
 }
 .input1 {
   height: 6vh;
@@ -49,49 +59,20 @@ input {
   width: 20vw;
   height: 3vh;
 }
+img {
+  width: 20px;
+}
 
 .linethrough {
   text-decoration: line-through gray;
   opacity: 0.5;
 }
 
-li {
-  display: flex;
-  justify-content: space-between;
-  margin-left: -30px;
-  align-items: center;
-}
-
-.fa-square-plus {
-  color: rgb(22, 125, 53);
-}
 .xxx {
   color: red;
-  font-size: smaller;
-}
-.checked {
-  font-size: smaller;
-  color: black;
-}
-.fa-regular {
-  font-size: smaller;
-  color: green;
-}
-
-li div {
-  /* border: 2px solid red; */
-
-  font-size: smaller;
-}
-
-.color111 {
-  color: blueviolet;
-  background-color: aquamarine;
-  font-size: xx-large;
 }
 
 #last {
-  /* border: 2px solid red; */
   margin: 10px;
   font-size: 30px;
   text-align: center;
@@ -121,8 +102,4 @@ li div {
   #last {
     font-size: 16px;
   }
-}
-
-img {
-  width: 20px;
 }
