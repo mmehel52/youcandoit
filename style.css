@@ -1,15 +1,19 @@
 body {
-  background-color: rgb(22, 125, 53);
+  background-image: url(https://www.proofhub.com/wp-content/uploads/2019/01/to-do-list-apps.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .sarı {
-  background-image: url(./14.jpg);
+  background-image: url();
   background-size: cover;
   height: 90vh;
   width: 40vw;
+  margin-top: 46vh;
 }
 .head {
   font-size: 20px;
@@ -26,11 +30,11 @@ i {
 
 #dolist1 {
   margin: auto;
-  height: 60vh;
-  width: 38vw;
+  height: 70vh;
+  width: 34vw;
   overflow: auto;
-  border-top: 2px solid red;
-  border-bottom: 2px solid red;
+  /* border-top: 2px solid red;
+  border-bottom: 2px solid red; */
   position: relative;
 }
 #dolist1 li div {
@@ -69,7 +73,7 @@ img {
 }
 
 .xxx {
-  color: red;
+  color: gray;
 }
 
 #last {
@@ -87,6 +91,8 @@ img {
   }
   #dolist1 {
     font-size: 20px;
+    height: 70vh;
+    width: 55vw;
   }
   #last {
     font-size: 23px;
@@ -98,6 +104,8 @@ img {
   }
   #dolist1 {
     font-size: 15px;
+    height: 70vh;
+    width: 45vw;
   }
   #last {
     font-size: 16px;
