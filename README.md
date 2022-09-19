@@ -3,16 +3,10 @@
 
 👨‍💻 In this project I mastered CSS and Javascript DOM skills. I used mainly JS-DOM. You can see demo of the website below. The objective is to make to do list.
 
- [👍click here to see page]()
+ [👍click here to see page](https://mmehel52.github.io/youcandoit/)
  
 ## Demo
 <img src="" width="900"/>
-
-
-## Project Skeleton
-
-<img src="" width="900"/>
-
       
 ## Purpose of Project;
 👨‍💻 The purpose of this project is to make a To-Do App as in the sample designs.
