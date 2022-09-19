@@ -10,7 +10,7 @@ addBtn.addEventListener("click", () => {
     alert("please enter a language");
   } else {
     newU1.innerHTML += `<li><img class="checked" src="https://cdn-icons-png.flaticon.com/512/64/64571.png"/>
-    <div>${doInput.value}</div><i class="xxx fa-solid fa-circle-xmark"></i> `;
+    <div>${doInput.value}</div><img class="xxx" src="https://img.icons8.com/plasticine/2x/x.png"/> `;
   }
   document.getElementById("last").innerText =
     counter + " OUT OF " + newU1.childElementCount + " TASKS COMPLETED";
